@@ -1,9 +1,0 @@
-no_of_words = int(input())
-
-for _ in range(no_of_words):
-    word = input().strip()
-    if len(word) > 10:
-        print(f"{word[0]}{len(word) - 2}{word[-1]}")
-    else:
-        print(word)
-        print(word)
